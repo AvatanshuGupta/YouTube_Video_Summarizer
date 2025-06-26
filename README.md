@@ -57,6 +57,7 @@ Add the following requirements-
 - youtube_transcript_api
 - python-dotenv
 - pathlib
+
 Then run the following command.
 
    ```bash
