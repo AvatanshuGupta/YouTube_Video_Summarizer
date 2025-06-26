@@ -63,3 +63,6 @@ Then run the following command.
    ```bash
      pip install -r requirements.txt
 
+## The Web App is live on following link-  
+Visit [YouTube Video summarizer](https://youtubevideosummarizerapp.streamlit.app/) 
+
