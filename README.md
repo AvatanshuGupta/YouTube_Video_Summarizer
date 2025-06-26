@@ -58,6 +58,7 @@ Add the following requirements-
 - python-dotenv
 - pathlib
 Then run the following command.
+
    ```bash
      pip install -r requirements.txt
 
