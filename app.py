@@ -12,4 +12,5 @@ if link:
 if st.button("Get Summary"):
     res=GettingResponse()
     response=res.get_response(transcript)
-    st.text(response)
+    st.markdown(response, unsafe_allow_html=True)
+

@@ -19,23 +19,8 @@ class GettingResponse():
         7. Structure your response professionally with appropriate headers, lists, and concise sections.
         8. Keep the tone informative, as if writing an article or briefing report.
         9. Optionally include **relevant, real-world insights** to enhance understanding, especially if the transcript lacks detail.
-        ### Output format:
-        **1. Title (if applicable)**  
-        **2. Speaker / Channel Overview**  
-        **3. Main Summary**  
-        → A 400–600 word breakdown of the video's main points, fully expanded.
-
-        **4. Key Insights**  
-        → A bulleted list of the most important or surprising takeaways.
-
-        **5. Referenced Materials**  
-        → List any books, links, people, or resources mentioned.
-
-        **6. Additional Commentary or Current Information (if relevant)**  
-        → Provide relevant real-world context or recent developments to enrich understanding.
-
         the script is as folllows : 
         """
         response = model.generate_content(prompt+" "+script)
-        return response
+        return response.text
     
