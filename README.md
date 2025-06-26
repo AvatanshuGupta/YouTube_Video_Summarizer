@@ -3,9 +3,7 @@
 This is an AI-powered web application built with **Streamlit** that takes a YouTube video link, fetches its transcript, and generates a detailed, structured summary using **Google Gemini (Generative AI)**. The app also displays the video’s thumbnail for a better user experience.
 
 ---
-## The Web App is live on following link-  
-Visit [YouTube Video summarizer](https://youtubevideosummarizerapp.streamlit.app/) 
----
+
 
 ## Features
 
